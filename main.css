@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-size: 70%;
     font-family: Verdana, sans-serif;
-    background: black url(img/WoodBackground.jpg) no-repeat fixed top center;
+    background: #3f3b4b url(img/WoodBackground.jpg) no-repeat fixed top center;
     background-size: 100% 100%;
 }
 
@@ -11,5 +11,46 @@ h1{
     color: #3f3b4b;
     font-size: 50px;
     margin: 1px 0px 0px 1px;
+    padding: 0px;
+}
+
+h2 {
+    color: #4d6f6c;
+    font-size: 25px;
+    margin: 1px 0px 0px 1px;
+    padding: 0px;
+}
+
+a, a:visited {
+    color: #f37844;
+}
+
+a:hover {
+    color: #3f3b4b;
+}
+
+hr {
     padding: 0;
+    margin: 1px 1px 1px 0.5px 0.25px;
+}
+
+.contentWrapper {
+    margin: 0 auto;
+    max-width: max-content;
+    padding: 0 0.5px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+header {
+    margin: 0 0 1px;
+    padding: 5px 0px 0px 1px;
+    height: 300px;
+    background: #3f3b4b url(img/PokemonCardCluster.jpg) center 0px;
 }
