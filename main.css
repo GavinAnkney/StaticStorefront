@@ -7,20 +7,6 @@ body {
     background-size: 100% 100%;
 }
 
-h1{
-    color: #3f3b4b;
-    font-size: 50px;
-    margin: 1px 0px 0px 1px;
-    padding: 0px;
-}
-
-h2 {
-    color: #4d6f6c;
-    font-size: 25px;
-    margin: 1px 0px 0px 1px;
-    padding: 0px;
-}
-
 a, a:visited {
     color: #f37844;
 }
@@ -35,13 +21,6 @@ a:hover {
     padding: 0 0.5px;
 }
 
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
 
 header {
     margin: 0 0 1px;
