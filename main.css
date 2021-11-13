@@ -17,7 +17,7 @@ h1 {
 
 h2 {
     color: #dab35f;
-    font-size: 25px;
+    font-size: 30px;
     margin: 5px 0 5px 0;
     padding: 0px;
     text-shadow: 2px 2px 0 black;
@@ -25,7 +25,7 @@ h2 {
 
 p {
     color: #f37844;
-    font-size: 15px;
+    font-size: 18px;
     margin: 0 5px 10px 0;
     padding: 0;
     text-shadow: 0.5px 0.5px 0 black;
@@ -102,8 +102,7 @@ nav#lowerMenu {
     margin: 25px 0px 0px -240px;
 }
 
-section #main {
-    background-color: black;
+section#main {
     margin: 0 0 32px;
     padding: 50px 0 50px 50px;
     display: inline-block;
@@ -119,7 +118,36 @@ section div.panel {
 }
 
 section div.panel img.cardType {
-    width: 75%;
+    width: 80%;
 }
 
+section#bottomMenu {
+    width: 80%;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+}
+
+
+footer {
+    background-color:gray;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: 150px 0 0 0;
+    padding: 10px 0;
+}
+
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 12px 0 15px 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0 12px 0 0;
+}
 
