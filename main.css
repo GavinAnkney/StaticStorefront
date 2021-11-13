@@ -125,7 +125,7 @@ section div.panel {
 
 section div.panel img.cardType {
     width: 80%;
-    border: 3px solid black;
+    border: 5px solid black;
 }
 
 section#bottomMenu {
@@ -162,3 +162,17 @@ footer ul li {
     margin: 0;
     padding: 0 12px 0 0;
 }
+
+button {
+    font-size: 15px;
+    background-color: black;
+    color: #f37844;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+}
+
+button:hover {
+    background-color: black;
+    color: #dab35f;
+}
+
