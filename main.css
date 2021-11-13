@@ -29,11 +29,6 @@ a:hover {
     color: #dab35f;
 }
 
-hr {
-    padding: 0;
-    margin: 1px 1px 1px 0.5px 0.25px;
-}
-
 .contentWrapper {
     margin: 0 auto;
     max-width: max-content;
@@ -59,7 +54,7 @@ header h1 {
     font-family:Arial, Helvetica, sans-serif;
     color: #dab35f;
     font-size: 75px;
-    margin: 75px 0 0 0;
+    margin: 100px 0 0 -250px;
     text-shadow: 2px 4px 0px gray;
 }
 
@@ -77,21 +72,17 @@ nav li {
 
 nav#topMenu {
     float: right;
-    margin: -75px -270px 0 0;
+    margin: -110px -480px 0 0;
     padding: 1px;
     height: 0px;
 }
 
 nav#topMenu li {
-    padding: 0 0.25em 0 0.2em;
+    padding: 0 1px 0 2px;
     vertical-align: middle;
 }
 
-nav#topMenu ul li.topNav a.active {
-    background-color: black;
-}
-
-nav#topMenu ul li.topNav a.hover {
-    background-color: yellow;
-    color: #f37844;
+nav#lowerMenu {
+    float: left;
+    margin: 45px 0px 0px -240px;
 }
