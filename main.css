@@ -38,6 +38,14 @@ a:hover {
     color: #dab35f;
 }
 
+.left{
+    float:left;
+}
+
+.right {
+    float:right;
+}
+
 .contentWrapper {
     margin: 0 auto;
     max-width: max-content;
@@ -80,17 +88,38 @@ nav li {
 
 nav#topMenu {
     float: right;
-    margin: -110px -485px 0 0;
+    margin: -100px -475px 0 0;
     padding: 1px;
     height: 0px;
 }
 
 nav#topMenu li {
-    padding: 0 1px 0 2px;
+    padding: 1px;
     vertical-align: middle;
 }
 
 nav#lowerMenu {
-    float: left;
-    margin: 45px 0px 0px -240px;
+    margin: 25px 0px 0px -240px;
 }
+
+section #main {
+    background-color: black;
+    margin: 0 0 32px;
+    padding: 50px 0 50px 50px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+section div.panel {
+    float: left;
+    position: relative;
+    width: 400px;
+    margin: 0 8px 32px 8px;
+    padding: 16px;
+}
+
+section div.panel img.cardType {
+    width: 75%;
+}
+
+
