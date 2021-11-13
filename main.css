@@ -7,6 +7,29 @@ body {
     background-size: 100% 100%;
 }
 
+h1 {
+    color: #f37844;
+    font-size: 40px;
+    margin: 5px 0 5px 0;
+    padding: 0;
+    text-shadow: 2px 2px 0 black;
+}
+
+h2 {
+    color: #dab35f;
+    font-size: 25px;
+    margin: 5px 0 5px 0;
+    padding: 0px;
+    text-shadow: 2px 2px 0 black;
+}
+
+p {
+    color: #f37844;
+    font-size: 15px;
+    margin: 0 5px 10px 0;
+    padding: 0;
+    text-shadow: 0.5px 0.5px 0 black;
+}
 a, a:visited {
     color: #f37844;
 }
@@ -33,14 +56,21 @@ header h1 {
     color: #dab35f;
     font-size: 75px;
     margin: 100px 0 0 -250px;
-    text-shadow: 2px 4px 0px gray;
+    text-shadow: 2px 4px 0px black;
 }
 
 nav {
-    font-size: 17px;
-    margin: 45px 0px;
+    font-size: 20px;
     padding: 1px 1px 0.5px;
     letter-spacing: 3px;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 35px;
+    list-style-type: none;
+    border: 2px black solid;
+    background-color: black;
 }
 
 nav li {
