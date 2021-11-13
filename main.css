@@ -21,7 +21,6 @@ a:hover {
     padding: 0 0.5px;
 }
 
-
 header {
     margin: 0 0 1px;
     padding: 5px 0px 0px 1px;
@@ -51,7 +50,7 @@ nav li {
 
 nav#topMenu {
     float: right;
-    margin: -110px -480px 0 0;
+    margin: -110px -485px 0 0;
     padding: 1px;
     height: 0px;
 }
