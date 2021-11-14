@@ -30,6 +30,7 @@ p {
     padding: 0;
     text-shadow: 0.5px 0.5px 0 black;
 }
+
 a, a:visited {
     color: #f37844;
 }
@@ -111,20 +112,21 @@ section#main {
 }
 
 section#main h1{
-    text-align: center;
-    font-size: 50px;
+    float: left;
+    margin: 0 150px 0 637px;
+    font-size: 60px;
 }
 
 section div.panel {
-    float: left;
     position: relative;
-    width: 400px;
-    margin: 0 8px 32px 8px;
+    width: 600px;
+    margin: 0 92px 0 200px;
     padding: 16px;
+    display: inline-block;
 }
 
 section div.panel img.cardType {
-    width: 80%;
+    width: 65%;
     border: 5px solid black;
 }
 
